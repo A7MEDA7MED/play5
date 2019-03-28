@@ -7,7 +7,7 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
-const prefix = "1"
+const prefix = "5"
 
 /*
 البكجآت
@@ -227,7 +227,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-if (message.content.startsWith('1help')) { //DiamondCodes - [ X_KillerYT ]
+if (message.content.startsWith('5help')) { //DiamondCodes - [ X_KillerYT ]
     let pages = [`
 ***__ الميوزك__***
 **
